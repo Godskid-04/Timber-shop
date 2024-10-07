@@ -1,26 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wood Store</title>
-    <link rel="stylesheet" href="styles.css">
+	<title>word store</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 20px;
+            background-color: #a5eba7;
+		}
+		
+		.header {
+			background-color: brown;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		.content {
+			padding: 20px;
+		}
+		
+		.image {
+			float: right;
+			margin: 10px;
+			width: 200px;
+			height: 150px;
+			border-radius: 10px;
+		}
+		
+		.button {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		.button:hover {
+			background-color: #3e8e41;
+		}
+        .menu{
+            width: 400px;
+            float: left;
+            height: 70px;
+        }
+        ul{
+            float: right;
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            margin-right: 50px;
+        }
+        ul li a{
+            text-decoration: none;
+            color: #f0f0f0;
+        }
+        ul li a:hover{
+            color: #54c59a;
+        }
+	</style>
 </head>
 <body>
-    <section class="main-section">
-        <h1>EBINGONYE'S WOOD STORE</h1>
-    </section>
-     <div class="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="Service.html">Service</a></li>
-            <li><a href="contact.html">Contact</a></li>
-         </ul>
-     </div>
-                <i><img src="images/wood1.jpg" alt="" width="430px" height="430px"></i>
-                <i><img src="images/wood2.jpg" alt="" width="430px" height="430px"></i>
-                <i><img src="images/pvc.jpeg" alt="" width="430px" height="430px"></i>
-                <i><img src="images/wood3.jpg" alt="" width="430px" height="430px"></i>
+	<div class="header">
+		<h1>Welcome to wood shop</h1>
+	</div>
+    <div class="menu">
+    <ul>
+       <li><a href="index.html">Home</a></li>
+       <li> <a href="About.html">About</a></li>
+       <li><a href="Service.html">Service</a></li>
+       <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+	<div class="content">
+		<img class="image" src="images/wood1.jpg" alt="Wood Image">
+		
+		<h2>Quality Wood Products</h2>
+		<h2>Featured Products</h2>
+		<ul>
+			<li>Hardwood Lumber</li>
+			<li>Softwood Lumber</li>
+			<li>Plywood</li>
+		</ul>
+		
+		<p>We guarantee:</p>
+		<ul>
+			<li>Quality products</li>
+			<li>Competitive pricing</li>
+			<li>Timely delivery</li>
+		</ul>
+	</div>
 </body>
 </html>
