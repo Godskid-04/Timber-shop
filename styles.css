@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(192, 138, 73);
+}
+section{
+    padding: 20px;
+    margin: 20px 0;
+    background-color: rgb(143, 196, 22);
+    border-radius: 8px;
+}
+.main-section h1{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+   list-style: none;
+   margin-left: 120px;
+   font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    align-items: center;
+}
+ul li a:hover{
+    color: black;
+}

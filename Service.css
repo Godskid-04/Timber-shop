@@ -1,0 +1,76 @@
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header Section */
+.header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+/* Services Section */
+.services-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 30px;
+    color: #2980b9;
+    margin-bottom: 30px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+/* Wood Types Section */
+.wood-types-section {
+    padding: 40px;
+    background-color: #e8f6f3;
+    text-align: center;
+}
+
+.wood-types-section h2 {
+    font-size: 30px;
+    color: #16a085;
+    margin-bottom: 20px;
+}
+
+.wood-types-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.wood-types-section ul li {
+    font-size: 20px;
+    color: #34495e;
+    margin-bottom: 10px;
+}
